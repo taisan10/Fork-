@@ -1,0 +1,207 @@
+  const videoCategories = {
+    UGC: [
+
+      "/videos/UGC/UGC.mp4",
+      "/videos/UGC/UGC1.mov",
+      "/videos/UGC/UGC2.mov",
+      "/videos/UGC/UGC3.mov",
+      "/videos/UGC/UGC4.mov",
+     
+      // "/videos/video3.MP4",
+      // "/videos/video2.mov",
+      // "/videos/video4.mov",
+      // "/videos/video1.mp4",
+    ],
+    EVENTS: [
+       
+      "/videos/Events/Events.mp4",
+      "/videos/Events/Events1.mov",
+      "/videos/Events/Events2.mp4",
+      "/videos/Events/Events3.mp4",
+      "/videos/Events/Events4.mov",
+      
+      // "/videos/video3.MP4",
+      // "/videos/video2.mov",
+      // "/videos/video4.mov",
+      // "/videos/video1.mp4",
+    ],
+    SMM: [
+      "/videos/SMM/SMM.MP4",
+      "/videos/SMM/SMM1.mov",
+      "/videos/SMM/SMM2.mp4",
+      "/videos/SMM/SMM3.mov",
+      "/videos/SMM/SMM4.mov",
+
+
+      // "/videos/video3.MP4",
+      // "/videos/video2.mov",
+      // "/videos/video4.mov",
+      // "/videos/video1.mp4",
+    ],
+    "Video Production": [
+      "/videos/Video Production/Video Production.mp4",
+      "/videos/Video Production/Video Production1.mov",
+      "/videos/Video Production/Video Production2.mp4",
+      "/videos/Video Production/Video Production3.mp4",
+      "/videos/Video Production/Video production4.mp4",
+
+      
+      // "/videos/video3.MP4",
+      // "/videos/video2.mov",
+      // "/videos/video4.mov",
+      // "/videos/video1.mp4",
+    ],
+    "Personal Branding": [
+      "/videos/Personal Branding/Personal Branding5.mov",
+      "/videos/Personal Branding/Personal Branding 3.mov",
+      "/videos/Personal Branding/Personal Branding.mp4",
+      "/videos/Personal Branding/Personal Branding1.mov",
+      "/videos/Personal Branding/Personal Branding 4.mov",
+      "/videos/Personal Branding/Personal Branding 2.mp4",
+
+      // "/videos/video3.MP4",
+      // "/videos/video2.mov",
+      // "/videos/video4.mov",
+      // "/videos/video1.mp4",
+
+    ],
+    "Influencer Marketing": [
+      "/videos/Influencer Marketing/Influencer marketing.mov",
+      "/videos/Influencer Marketing/Influencer marketing1.mp4",
+      "/videos/Influencer Marketing/Influencer marketing2.mp4",
+      "/videos/Influencer Marketing/Influencer marketing3.mov",
+      "/videos/Influencer Marketing/Influencer marketing4.mov",
+
+
+      // "/videos/video3.MP4",
+      // "/videos/video2.mov",
+      // "/videos/video4.mov",
+      // "/videos/video1.mp4",
+
+    ],
+  };
+
+
+
+
+
+
+  // const videoCategories = {
+  //   UGC: [
+
+  //     "https://drive.google.com/file/d/1229Z9kMnANiZNUxgFB-jVeXC84INU2UW/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/13yTCX353yekztjSWqTuhbcjBxW4IecyO/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1N-gBvKnVQGFNzs4jRGbisdydl0wzHzXj/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1PoVHA8Ye43kwGtkbINJOx6tN5jt5bAAc/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1DcszSZf-nA_xYQLf06bahyVsjSidzZIo/view?usp=drive_link",
+     
+     
+  //   ],
+  //   EVENTS: [
+       
+  //     "https://drive.google.com/file/d/19qUo8U6-2cpbNUQqWM82wi4iFmRk8b_J/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1s86ZIP7dlOOIpZgsY59JBfnjs_WEX4cW/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/11Ogk_n9QM_k3FUodKfU_Hq1DdcXcXoNI/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/13pkmPhIgFRg3MtweVEQVTIEl5jGhYfCM/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1r45IyyTUNW7xKXO-0IbHPFLq4Qs4v-ms/view?usp=drive_link",
+      
+
+  //   ],
+  //   SMM: [
+  //     "https://drive.google.com/file/d/17rTp8zo1LsCUX_7ZSRmUw8n904ectYg7/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1MoGjelid-Cx-CM2zuuUFaDQpr0d30sKL/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1V8IAfMDuF5-KLzvYFbxp-aOdmSyDRiPm/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/15R8QxfhBH3AqXZrJO3fIumrChBGthkPJ/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1L9nDJUcme1e68BkTon6NgwSFDQHw_2E8/view?usp=drive_link",
+
+
+     
+  //   ],
+  //   "Video Production": [
+  //     "https://drive.google.com/file/d/1uJdWpnqzvfwrsza_4fK80nH__ScZM3OT/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/15SpceLW7rfxehurFfkA1zVP6UdKjACS3/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1gnuXfv2QZ-pAW40XvGMip7PxyXSmjYJh/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1mlHfBzs3cuYev1CaBXqgugghdYN3X7Wh/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1uUCOqHtHVVkbkPCFObpuzx0GE6UFhxFh/view?usp=drive_link",
+
+      
+    
+  //   ],
+  //   "Personal Branding": [
+  //     "https://drive.google.com/file/d/1Ghi7OzbzkkE-SWz2EI14P-t-nVOxegD3/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1qnqht5s4jXYiQ-oXyPGQDptVcBLckVPr/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1vWjEi7OUhkkGnE63tRwDCX5NfmDcAESV/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/16Vn70yWZxmS7zd9S1KEAk43KFKRJub0s/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1oZYsyMmLnlOqB0CqvXgxoNaQrEKqkm1I/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1vKpiv0HtEGCyZ1Ytuw0tJVbM8QyLfXuh/view?usp=drive_link",
+
+     
+
+  //   ],
+  //   "Influencer Marketing": [
+  //     "https://drive.google.com/file/d/1Yimb-Hqv1L8ZIyuTLNftkeTR8UnD7wtR/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1riC6bi4924GCwHn_YjmNy6oigWRGoB_B/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1u9fSIKcS7m3AYfjzfwnSfNaaFNnb8k2E/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/10lomH4aadJ3m3yG0hn0J7I-ZKBFIBQCz/view?usp=drive_link",
+  //     "https://drive.google.com/file/d/1cyJYruDrQ3p1BZpu6k06ebifR8xKRTx1/view?usp=drive_link",
+
+
+     
+
+  //   ],
+  // };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// UGC: [
+//   "https://drive.google.com/uc?export=view&id=1LTmmqikgkZCwnbeQt0dprN3cnIxtSjOP",
+//   "https://drive.google.com/uc?export=view&id=1AUPDMFHu3a5DLITNTh-MiobUX71HxIm6",
+//   "https://drive.google.com/uc?export=view&id=1EZmIG_PKuKfZT6aXcfMXbjOoqBTZsP92",
+//   "https://drive.google.com/uc?export=view&id=15KOX1zR9ZT1-4AWCCnxKr0gQOG7HBsi8",
+//   "https://drive.google.com/uc?export=view&id=1RZgfzkHsAWz7ARjzeBCnuaJL7oPiJlap",
+// ]
+  
