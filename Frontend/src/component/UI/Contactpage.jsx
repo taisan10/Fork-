@@ -51,13 +51,13 @@ export default function ContactPage() {
       submittedPhones,
     };
 
+const CONTACT_API = import.meta.env.VITE_CONTACT_API;
     try {
-      const res = await fetch("https://bluenose-marketing-tr23.vercel.app/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-
+     const res = await fetch(CONTACT_API, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(payload),
+});
       const result = await res.json();
 
       if (result.success) {
